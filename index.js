@@ -20,6 +20,7 @@ function guess(){
 }
 
 function init(){
+    win = false;
     i = 0;
     targetNum = Math.floor(Math.random() * 100*difficulty);
     result = "Guess a number between 1 and " + 100*difficulty;
